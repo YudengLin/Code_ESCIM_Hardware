@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Jul  1 15:00:06 2020
+# Process ID: 4176
+# Current directory: D:/program_4k/project_1_base_v3.11_xin/project_1_base.runs/ila_0_synth_1
+# Command line: vivado.exe -log ila_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_0.tcl
+# Log file: D:/program_4k/project_1_base_v3.11_xin/project_1_base.runs/ila_0_synth_1/ila_0.vds
+# Journal file: D:/program_4k/project_1_base_v3.11_xin/project_1_base.runs/ila_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ila_0.tcl -notrace

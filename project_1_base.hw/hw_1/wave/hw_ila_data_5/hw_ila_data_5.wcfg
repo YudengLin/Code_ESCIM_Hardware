@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.23/project_1_base.hw/hw_1/wave/hw_ila_data_5/hw_ila_data_5.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="197000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="2" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="dut/ctrl_stat" type="array">
+      <obj_property name="ElementShortName">dut/ctrl_stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dut/ctrl_stat[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/reg44_in" type="array">
+      <obj_property name="ElementShortName">dut/reg44_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dut/reg44_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

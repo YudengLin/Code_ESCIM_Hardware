@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Sep 04 10:52:20 2019
+# Process ID: 18392
+# Current directory: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

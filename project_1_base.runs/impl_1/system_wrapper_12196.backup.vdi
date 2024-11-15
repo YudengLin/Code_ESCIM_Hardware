@@ -1,0 +1,421 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Sep 12 16:06:13 2019
+# Process ID: 12196
+# Current directory: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'dut/clk_gen'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_0_synth_1/ila_0.dcp' for cell 'dut/ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/vio_0_synth_1/vio_0.dcp' for cell 'dut/vio_0'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_1_synth_1/ila_1.dcp' for cell 'dut/ctrl_cell/ila_1'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/adc_config/ila_adc'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/ctrl_cell/reg_tran1/ila_reg'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/ctrl_cell/reg_tran3/ila_reg3'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/dac_config/ila_dac'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_3_synth_1/ila_3.dcp' for cell 'dut/ctrl_cell/reg_tran/ila_3'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_4_synth_1/ila_4.dcp' for cell 'dut/ctrl_cell/reg_tran2/ila_4'
+INFO: [Netlist 29-17] Analyzing 1339 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z045ffg900-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. dut/clk_gen/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dut/clk_gen/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/impl_1/.Xil/Vivado-12196-/dcp_2/clk_wiz_0.edf:317]
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_50M'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0_board.xdc] for cell 'system_i/rst_processing_system7_0_50M'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc] for cell 'system_i/rst_processing_system7_0_50M'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_50M_0/system_rst_processing_system7_0_50M_0.xdc] for cell 'system_i/rst_processing_system7_0_50M'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'dut/clk_gen/inst'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'dut/clk_gen/inst'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'dut/clk_gen/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1289.563 ; gain = 551.273
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'dut/clk_gen/inst'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_0/ila_v6_0/constraints/ila.xdc] for cell 'dut/ila_0'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_0/ila_v6_0/constraints/ila.xdc] for cell 'dut/ila_0'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'dut/vio_0'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc] for cell 'dut/vio_0'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_1/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/ila_1'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_1/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/ila_1'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/dac_config/ila_dac'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/dac_config/ila_dac'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran3/ila_reg3'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran3/ila_reg3'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran1/ila_reg'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran1/ila_reg'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/adc_config/ila_adc'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_2/ila_v6_0/constraints/ila.xdc] for cell 'dut/adc_config/ila_adc'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_3/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran/ila_3'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_3/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran/ila_3'
+Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_4/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran2/ila_4'
+Finished Parsing XDC File [d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/sources_1/ip/ila_4/ila_v6_0/constraints/ila.xdc] for cell 'dut/ctrl_cell/reg_tran2/ila_4'
+Parsing XDC File [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/constrs_1/new/system.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clk_100M'. [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/constrs_1/new/system.xdc:336]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/constrs_1/new/system.xdc:336]
+Finished Parsing XDC File [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.srcs/constrs_1/new/system.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_0_synth_1/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/vio_0_synth_1/vio_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_1_synth_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_2_synth_1/ila_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_3_synth_1/ila_3.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/ila_4_synth_1/ila_4.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 824 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 824 instances
+
+link_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:47 . Memory (MB): peak = 1309.500 ; gain = 1098.008
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.406 . Memory (MB): peak = 1309.500 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.cache/ip'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/liunan/4K_CrossBar/FPGA/ip_repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "2852501d53f84c76".
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1342.230 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 2895f862b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:23 . Memory (MB): peak = 1342.230 ; gain = 27.270
+Implement Debug Cores | Checksum: 21358eb10
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: f9b960f2
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:27 . Memory (MB): peak = 1344.496 ; gain = 29.535
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 316 cells.
+Phase 3 Constant Propagation | Checksum: 1d3fc157c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:31 . Memory (MB): peak = 1344.496 ; gain = 29.535
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 1072 unconnected nets.
+INFO: [Opt 31-11] Eliminated 764 unconnected cells.
+Phase 4 Sweep | Checksum: 18de36122
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:34 . Memory (MB): peak = 1344.496 ; gain = 29.535
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1344.496 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 18de36122
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:35 . Memory (MB): peak = 1344.496 ; gain = 29.535
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 25 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 3 newly gated: 0 Total Ports: 50
+Ending PowerOpt Patch Enables Task | Checksum: 1a4e9a68e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.141 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1a4e9a68e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1708.672 ; gain = 364.176
+INFO: [Common 17-83] Releasing license: Implementation
+55 Infos, 4 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 1708.672 ; gain = 399.172
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1708.672 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.672 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.27/project_1_base.runs/impl_1/system_wrapper_drc_opted.rpt.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1708.672 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: c3982574
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.672 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: c3982574
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: c3982574
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 4aad7968
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11ab6a545
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 1ac8443aa
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 1.2.1 Place Init Design | Checksum: 16d686c94
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 1.2 Build Placer Netlist Model | Checksum: 16d686c94
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: 16d686c94
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 1.3 Constrain Clocks/Macros | Checksum: 16d686c94
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 16d686c94
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 22d5c93ad
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:48 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 22d5c93ad
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:48 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1f0fb3f73
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:57 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 28c013f9b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:57 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 28c013f9b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:57 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1f3a14b51
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 1f3a14b51
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:59 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: 20de74de1
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:19 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: 20de74de1
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:19 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: 20de74de1
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:20 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 20de74de1
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:20 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 3.7 Small Shape Detail Placement | Checksum: 20de74de1
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:20 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 1f8eb8f83
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:22 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1f8eb8f83
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:22 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: 14813bec6
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:28 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: 14813bec6
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:28 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: 14813bec6
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+
+Phase 4.1.3.1.2.1 deleteShapes
+Phase 4.1.3.1.2.1 deleteShapes | Checksum: 1bd26beda
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 1bd26beda
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 1bd26beda
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:29 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.369. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:30 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4.1.3 Post Placement Optimization | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:01:30 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:01:30 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:01:30 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:03 ; elapsed = 00:01:31 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:31 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4.4 Placer Reporting | Checksum: 1cbb70d43
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:31 . Memory (MB): peak = 1708.672 ; gain = 0.000
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 1d9f08601
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:31 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1d9f08601
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:32 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Ending Placer Task | Checksum: 12b363523
+
+Time (s): cpu = 00:02:04 ; elapsed = 00:01:32 . Memory (MB): peak = 1708.672 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+70 Infos, 4 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:09 ; elapsed = 00:01:35 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:11 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.672 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.672 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1708.672 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.328 . Memory (MB): peak = 1708.672 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 1708.672 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 4ba8e965 ConstDB: 0 ShapeSum: df8d4bbe RouteDB: 0
+
+Phase 1 Build RT Design

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Sep 04 10:52:20 2019
+# Process ID: 18392
+# Current directory: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'dut/clk_gen'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_0_synth_1/ila_0.dcp' for cell 'dut/ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/vio_0_synth_1/vio_0.dcp' for cell 'dut/vio_0'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_1_synth_1/ila_1.dcp' for cell 'dut/ctrl_cell/ila_1'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/ctrl_cell/reg_tran1/ila_reg'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/ctrl_cell/reg_tran3/ila_reg3'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_2_synth_1/ila_2.dcp' for cell 'dut/dac_config/ila_dac'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_3_synth_1/ila_3.dcp' for cell 'dut/ctrl_cell/reg_tran/ila_3'
+INFO: [Project 1-454] Reading design checkpoint 'D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/ila_4_synth_1/ila_4.dcp' for cell 'dut/ctrl_cell/reg_tran2/ila_4'
+INFO: [Netlist 29-17] Analyzing 1243 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4
+INFO: [Device 21-403] Loading part xc7z045ffg900-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. dut/clk_gen/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'dut/clk_gen/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.24/project_1_base.runs/impl_1/.Xil/Vivado-18392-/dcp_2/clk_wiz_0.edf:317]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/liunan/4K_CrossBar/FPGA/project_1_base_v2.31/project_1_base.hw/hw_1/wave/hw_ila_data_9/hw_ila_data_9.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="275000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="dut/ctrl_stat" type="array">
+      <obj_property name="ElementShortName">dut/ctrl_stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dut/ctrl_stat[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/dac_cs0" type="logic">
+      <obj_property name="ElementShortName">dut/dac_cs0</obj_property>
+      <obj_property name="ObjectShortName">dut/dac_cs0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/dac_clk" type="logic">
+      <obj_property name="ElementShortName">dut/dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dut/dac_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/dac_clk_0" type="logic">
+      <obj_property name="ElementShortName">dut/dac_clk_0</obj_property>
+      <obj_property name="ObjectShortName">dut/dac_clk_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/dac_cs0_0" type="logic">
+      <obj_property name="ElementShortName">dut/dac_cs0_0</obj_property>
+      <obj_property name="ObjectShortName">dut/dac_cs0_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/dac_mosi_0" type="logic">
+      <obj_property name="ElementShortName">dut/dac_mosi_0</obj_property>
+      <obj_property name="ObjectShortName">dut/dac_mosi_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/reg184_in_1" type="array">
+      <obj_property name="ElementShortName">dut/reg184_in_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dut/reg184_in_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="dut/reg176_in_1" type="array">
+      <obj_property name="ElementShortName">dut/reg176_in_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dut/reg176_in_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

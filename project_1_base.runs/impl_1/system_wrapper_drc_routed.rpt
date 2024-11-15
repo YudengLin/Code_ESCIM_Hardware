@@ -1,0 +1,117 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Tue Oct 08 17:23:02 2019
+| Host         : TEST running 64-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 15
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net dut/dac_config/data_in_reg[15]_i_2_n_0 is a gated clock net sourced by a combinational pin dut/dac_config/data_in_reg[15]_i_2/O, cell dut/dac_config/data_in_reg[15]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net dut/dac_config1/dac_num_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin dut/dac_config1/dac_num_reg[3]_i_2/O, cell dut/dac_config1/dac_num_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[12] in site SLICE_X48Y218 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[11] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[20] in site SLICE_X48Y217 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[19] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[4] in site SLICE_X48Y219 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD4/shift_reg_in_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[10] in site SLICE_X44Y215 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[9] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[2] in site SLICE_X44Y216 is part of a synchronized register chain that is suboptimally placed as the load FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD5/shift_reg_in_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#6 Warning
+Suboptimally placed synchronized register chain  
+The FDCE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/shift_reg_in_reg[0] in site SLICE_X46Y221 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#7 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/shift_reg_in_reg[2] in site SLICE_X51Y221 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/shift_reg_in_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+803 net(s) have no routable loads. The problem bus(es) and/or net(s) are dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[10].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[9].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[18].PROBE_OUT0_INST/PROBE_OUT[0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[21].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[17].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[16].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[22].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[19].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[20].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[12].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[15].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[2].PROBE_OUT0_INST/PROBE_OUT[0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[11].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[8].PROBE_OUT0_INST/PROBE_OUT[31:0], dut/vio_0/inst/PROBE_OUT_ALL_INST/G_PROBE_OUT[13].PROBE_OUT0_INST/PROBE_OUT[31:0] (the first 15 of 28 listed).
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-from = 1025, -to = 1025
+set_false_path -from [get_cells -hierarchical -filter { NAME =~  "*PROBE_IN_INST/probe_in_reg*" &&  IS_SEQUENTIAL}] -to [get_cells -hierarchical -filt...
+d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.38/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc (Line: 65)
+Related violations: <none>
+
+XDCB-1#2 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-from = 7286, -to = 5236
+set_false_path -from [get_cells -hierarchical -filter { NAME =~  "*data_int_*" && IS_SEQUENTIAL }] -to [get_cells -hierarchical -filter { NAME =~  "*P...
+d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.38/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc (Line: 70)
+Related violations: <none>
+
+XDCB-1#3 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = 1025
+set_false_path -from [get_cells -hierarchical -filter { NAME =~  "*Hold_probe_in*" &&  IS_SEQUENTIAL }] -to [get_cells -hierarchical -filter { NAME =~...
+d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.38/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc (Line: 64)
+Related violations: <none>
+
+XDCB-1#4 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = 4544
+set_false_path -from [get_cells -hierarchical -filter { NAME =~  "*clear_int*" && IS_SEQUENTIAL }] -to [get_cells -hierarchical -filter { NAME =~  "*P...
+d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.38/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc (Line: 71)
+Related violations: <none>
+
+XDCB-1#5 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = 5236
+set_false_path -from [get_cells -hierarchical -filter { NAME =~  "*clear_int*" && IS_SEQUENTIAL}] -to [get_cells -hierarchical -filter { NAME =~  "*Pr...
+d:/liunan/4K_CrossBar/FPGA/project_1_base_v2.38/project_1_base.srcs/sources_1/ip/vio_0/vio_0.xdc (Line: 68)
+Related violations: <none>
+
+
